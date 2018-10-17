@@ -1,0 +1,33 @@
+id|parent_id|title|label_name|content
+1|0|Centro de Soporte|Centro de Soporte|
+2|1|Mi Vehiculo|Mi Vehiculo|
+3|2|Mi vehiculo no enciende|No enciende|<p>Asegurate que tienes al menos 1/4 de combustible. En caso afirmativo, por favor abastece el vehiculo con 1.5 galones en caso de tener gasolina podrida.</p>
+4|2|Mi vehiculo enciende, pero tiene otro problema|Enciende, pero tengo otro problema|
+5|2|Tuve un accidente|Tuve un accidente|<p>Taximo está comprometido con el bienestar de sus socios conductores. Si estuviste involucrado en un accidente, estamos aquí para asistirte. </p>
+6|2|Necesito ayuda con mis documentos|Necesito ayuda con mis documentos|
+7|2|Mi vehiculo ha sido llevado a depósito|Mi vehiculo ha sido llevado a depósito|
+8|1|Mi Trabajo|Mi Trabajo|
+9|1|Mis Cuentas|Mis Cuentas|
+10|1|Mi Perfil|Mi Perfil|
+11|0|Emergencias|Emergencias|
+12|3|El tablero enciende|El tablero enciende|<p>En T&aacute;ximo, estamos comprometidos con el servicio a nuestros socios conductores y a sus veh&iacute;culos.</p><p>Si tu veh&iacute;culo no enciende y tiene el tablero prendido, por favor escr&iacute;benos un mensaje con los detalles del problema aqu&iacute; debajo.</p>
+13|3|El tablero no enciende|El tablero no enciende|<p>Por favor verifica si los bornes de la bater&iacute;a est&aacute;n sueltos. En caso contrario, ajustalos y colocalos correctamente.</p><p>Si aun no has podido solucionar el inconveniente con tu vehiculo, escribenos un mensaje detallado aqui debajo.</p>
+14|5|Qué tipo de accidente fue?|Necesito atención inmediata|<p>Querido socio conductor, esperamos que te encuentres bien. Ten seguridad que haremos todo lo posible para apoyarte en este momento.</p>
+15|5|Qué tipo de accidente fue?|No necesito atencion, pero quiero registrar el incidente|<p>Por favor cuentanos los detalles del accidente para poder ayudarte mejor.</p>
+16|14|Cuál es el nivel de gravedad?|Choque con otro vehículo|
+16|14|Cuál es el nivel de gravedad?|Choque con un peatón|
+16|14|Cuál es el nivel de gravedad?|Choque con una estructura|
+16|14|Cuál es el nivel de gravedad?|Incendio|
+16|15|Cuál es el nivel de gravedad?|Choque con otro vehículo|
+16|15|Cuál es el nivel de gravedad?|Choque con un peatón|
+16|15|Cuál es el nivel de gravedad?|Choque con una estructura|
+16|15|Cuál es el nivel de gravedad?|Incendio|
+17|16|Estas herido?|Muy Grave|
+17|16|Estas herido?|Grave|
+17|16|Estas herido?|Medio|
+18|17|Hay otros heridos?|Si|
+18|17|Hay otros heridos?|No|
+19|18|Estamos aquí para ti|Si|<p>Esperamos que te encuentres bien. En T&aacute;ximo, estamos para servirte por lo que ten seguridad que haremos todo lo posible para apoyarte en este momento.</p>
+19|18|Estamos aquí para ti|No|<p>Esperamos que te encuentres bien. En T&aacute;ximo, estamos para servirte por lo que ten seguridad que haremos todo lo posible para apoyarte en este momento.</p>
+20|18|Estamos aquí para ti|Si|<p>Taximo est&aacute; comprometido con la seguridad de sus socios conductores. Por favor, cu&eacute;ntanos m&aacute;s en detalle lo sucedido de modo que podamos ayudarte mejor incluyendo c&oacute;mo ocurrio, y la fecha, hora y lugar del incidente.&nbsp;</p>
+20|18|Estamos aquí para ti|No|<p>Taximo est&aacute; comprometido con la seguridad de sus socios conductores. Por favor, cu&eacute;ntanos m&aacute;s en detalle lo sucedido de modo que podamos ayudarte mejor incluyendo c&oacute;mo ocurrio, y la fecha, hora y lugar del incidente.&nbsp;</p>

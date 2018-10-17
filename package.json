@@ -1,0 +1,15 @@
+{
+  "name": "readcsv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "daniel ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "rootpath": "^0.1.2"
+  }
+}
