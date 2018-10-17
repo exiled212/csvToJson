@@ -4,9 +4,10 @@
     let csv = require("fast-csv");
     let fs = require('fs');
     let path = require('path');
+    let args = require('yargs').argv;
 
-    let fileInput = path.join('.', 'nodo.csv');
-    let fileOutput = path.join('.', 'dataCSV.json');
+    let fileInput = `${args.input}.csv`;
+    let fileOutput = `${args.input}.json`;
 
     let stream = fs.createReadStream(fileInput);
     let filecontent = [];
@@ -23,7 +24,7 @@
                 let row = body[i];
                 let newRow = {};
                 for(let o in header){
-                    let column = (header[o] || `lavel_${o}`).replace('\'', '');
+                    let column = (header[o] || `label_${o}`).replace('\'', '');
                     newRow[column] = (row[o] || '').replace('\'', '');
                 }
                 contentData.push(newRow);
