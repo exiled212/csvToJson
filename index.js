@@ -13,7 +13,13 @@
     let filecontent = [];
     let csvStream = csv()
         .on("data", function(data){
-            filecontent.push(data.join(' ').split('|'));
+            let stringData = data.join(' ');
+            if(args.clear_html){
+                while(stringData.indexOf('“') > -1){
+                    stringData = stringData.replace('“', '\\\"');
+                }
+            }
+            filecontent.push(stringData.split('|'));
         })
         .on("end", function(){
             let header = filecontent.filter((value,key)=>key == 0)[0]; 
@@ -26,10 +32,10 @@
                 for(let o in header){
                     let column = (header[o] || `label_${o}`).replace('\'', '');
                     newRow[column] = (row[o] || '').replace('\'', '');
-                    console.log(row[o]);
                 }
                 contentData.push(newRow);
             }
+
             fs.writeFile(fileOutput, JSON.stringify(contentData), function(error){
                 if (!error){
                     console.log('success');

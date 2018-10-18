@@ -1,7 +1,0 @@
-label|code|content_html|node_class|node_class_code|Nota
-Nodo simple|single||||Nodo generico
-Pregunta: ¿Recibiste ayuda satisfactoria?|experience_question|{{QUESTION}}|||Pregunta "Recibiste ayuda satisfactoria?" (Cara Feliz o Triste)
-Correo al administrador de flota|message|<h1>Aquí va el esqueleto del campo de texto </h1>|Administrador de Flota|administrator_fleet|
-Llamada para el administrador de flota|call|<h1>Aquí va el esqueleto del boton de llamada </h1>|Administrador de Flota|administrator_fleet|
-Llamada o correo para el administrador de flota|call_message|<h1>Aquí va el esqueleto del boton de llamada o el campo de texto </h1>|Administrador de Flota|administrator_fleet|
-Correo al administrador de flota y pregunta: ¿Recibiste ayuda satisfactoria?|experience_question_message|<h1>Aquí va el esqueleto del campo de texto</h1> {{QUESTION}}|Administrador de Flota|administrator_fleet|
