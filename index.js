@@ -9,20 +9,30 @@
     let fileInput = `${args.input}.csv`;
     let fileOutput = `${args.input}.json`;
 
+    let numberRow = 0;
+
     let stream = fs.createReadStream(fileInput);
     let filecontent = [];
-    let csvStream = csv()
+    let csvStream = csv
+        .parse({
+            delimiter:'|',
+        })
         .on("data", function(data){
-            let stringData = data.join(' ');
-            if(args.clear_html){
-                while(stringData.indexOf('“') > -1){
-                    stringData = stringData.replace('“', '\\\"');
-                }
+
+            // Obtenemos el ultimo nombre del campo separado por /
+            if(numberRow == 0 && args.clear_header){
+                data = data.map(item=>item.split('/')[item.split('/').length - 1]);
+            } else if (args.clear_html && numberRow > 0){
+                data = data.map(item=>{
+                    while(item.indexOf('“') > -1) item = item.replace('“', '\\\"'); 
+                    return item; 
+                });
             }
-            filecontent.push(stringData.split('|'));
+            numberRow++;
+            filecontent.push(data);
         })
         .on("end", function(){
-            let header = filecontent.filter((value,key)=>key == 0)[0]; 
+            let header = filecontent.filter((value,key)=>key == 0)[0];
             let body = filecontent.filter((value, key) => key > 0);
             let contentData = [];
 
