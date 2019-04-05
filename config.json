@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": "8080",
+  "path": "/api/restaurants-integrations-kokoriko/menu-mapping-test/",
+  "method": "POST",
+  "headers": {
+    "content-type": "application/json",
+    "x-auth-token":"Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IlJEY3pPREkyUXpnMFJEQkJSamRHUkVVNVFUVkRRekl5T1VWQ1FUaEZRVU5DTmtZeVJEQkJNdyJ9.eyJpc3MiOiJodHRwczovL2ludGVncmF0aW9ucy10ZWFtLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw1YmViNzY1YzE2NWJlYTFmNWJhNDU0ZWUiLCJhdWQiOlsiaHR0cHM6Ly9pbnRlZ3JhdGlvbnMtdGVhbS5hdXRoMC5jb20vYXBpL3YyLyIsImh0dHBzOi8vaW50ZWdyYXRpb25zLXRlYW0uYXV0aDAuY29tL3VzZXJpbmZvIl0sImlhdCI6MTU0NjAxNTQ3NiwiZXhwIjoxNTQ2MDIyNjc2LCJhenAiOiJld1dKaXhMSDFoQThuUDV2SHc4ZTBMVUlDVE9wUDVLWCIsInNjb3BlIjoib3BlbmlkIHByb2ZpbGUifQ.HAbu9S9Dg6P0hI7VV5JtstAQ5WMpmC7rTE97e4ZZeGS7l7Cb94lk-1pTdlpkdTRm6hKPaybzqrZYm5ZRsHb61gTySDZ71ppMxI25iWOFOTdGSt3HvLPl42RAPPz-880urqicFOWMLtCDvQ9KvXiR_UIlfn0Hx0inJbparCNSuC5pkndLMdSq8kMj8a9nABHIoj1Jb327cW1jfXgcAepD0d_rV-deqxosPFsh1DyJ0FC-ljaOVrAT4jXJ8JaoYHgWLNVNY2tG-GMP6r4e-QbLXz3WC_YmWtDBeVfdF9x0qNEsHSu_1BADJfr4_RBhGTKd4w7MQeyEKvB2o2gTX1uDzw",
+    "save-log": "false",
+    "pos-flow": "false"
+  }
+}

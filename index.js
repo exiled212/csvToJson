@@ -1,58 +1,55 @@
-(()=>{
-
+(async ()=>{
     require('rootpath');
-    let csv = require("fast-csv");
+
     let fs = require('fs');
-    let path = require('path');
-    let args = require('yargs').argv;
+    let http = require('http');
 
-    let fileInput = `${args.input}.csv`;
-    let fileOutput = `${args.input}.json`;
+    const orders = require('./data.json');
+    const config = require('./config.json');
 
-    let numberRow = 0;
+    let contentFile = [];
 
-    let stream = fs.createReadStream(fileInput);
-    let filecontent = [];
-    let csvStream = csv
-        .parse({
-            delimiter:'|',
-        })
-        .on("data", function(data){
 
-            // Obtenemos el ultimo nombre del campo separado por /
-            if(numberRow == 0 && args.clear_header){
-                data = data.map(item=>item.split('/')[item.split('/').length - 1]);
-            } else if (args.clear_html && numberRow > 0){
-                data = data.map(item=>{
-                    while(item.indexOf('“') > -1) item = item.replace('“', '\\\"'); 
-                    return item; 
+    // send orders
+    for(let i in orders){
+        let resultJson = {};
+        let order = orders[i];
+        let resultRequest = await sendDataLocal(order);
+
+        resultJson.response = JSON.parse(resultRequest);
+        resultJson.request = order;
+        contentFile.push(resultJson);
+    }
+
+    // Save content in file
+    fs.writeFile('./result.json', JSON.stringify(contentFile), function(err){
+        if(err){
+            console.log(err);
+        } else {
+            console.log('success');
+        }
+    });
+
+
+    // Functions
+    function sendDataLocal(body){
+        return new Promise(
+            function(resolve, reject){
+                let send = http.request(config, function(res) {
+                    res.setEncoding('utf8');
+                    res.on('data', function (chunk) {
+                        resolve(chunk);
+                    });
+                    res.on('error', function(error){
+                        reject(error);
+                    });
                 });
+
+                send.write(JSON.stringify(body));
+                send.end();
             }
-            numberRow++;
-            filecontent.push(data);
-        })
-        .on("end", function(){
-            let header = filecontent.filter((value,key)=>key == 0)[0];
-            let body = filecontent.filter((value, key) => key > 0);
-            let contentData = [];
-
-            for (let i in body){
-                let row = body[i];
-                let newRow = {};
-                for(let o in header){
-                    let column = (header[o] || `label_${o}`).replace('\'', '');
-                    newRow[column] = (row[o] || '').replace('\'', '');
-                }
-                contentData.push(newRow);
-            }
-
-            fs.writeFile(fileOutput, JSON.stringify(contentData), function(error){
-                if (!error){
-                    console.log('success');
-                }
-            });
-        });
-
-    stream.pipe(csvStream);
+        );
+    }
 
 })();
+

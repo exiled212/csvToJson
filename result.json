@@ -1,0 +1,272 @@
+[
+  {
+    "response": {
+      "rappiId": "63796156",
+      "integrationId": null,
+      "rappiStoreId": "900007519",
+      "createdAt": "2019-04-05T16:23:43.930+0000",
+      "status": 0,
+      "message": null,
+      "exceptionMessage": null,
+      "updatedAt": null,
+      "details": {
+        "request": "{\"com\":\" |\",\"cli\":\"BOGOTA|23434324| | | |CdAXI9A1FNz8cK7Jwf1sqAHjEmFsaXLSZmk4xknd|0|DFASDFASDFASD| | |0| |0| | | |\",\"pag\":\"1| |8900.0|\",\"pro\":\"503930|malteada vainilla 12 oz|8900|1|0|0|0|0|0|0|Test Comment |\"}",
+        "response": null
+      }
+    },
+    "request": {
+      "id": 63796156,
+      "userId": 141450437,
+      "products": [
+        {
+          "name": "Malteada 12oz",
+          "id": 2090391037,
+          "totalPrice": 8900,
+          "unitPrice": 8900,
+          "comments": "Test Comment",
+          "units": 1,
+          "toppings": [
+            {
+              "id": 10518840,
+              "price": "0",
+              "description": "Vainilla",
+              "units": 1,
+              "index": 1,
+              "toppingCategoryId": 10026035,
+              "categoryIndex": 0
+            }
+          ]
+        }
+      ],
+      "totalValue": "8900",
+      "totalPrice": "8900",
+      "storeId": "900007519",
+      "createdAt": "2019-04-05 09:43:14"
+    }
+  },
+  {
+    "response": {
+      "rappiId": "465261265",
+      "integrationId": null,
+      "rappiStoreId": "900007519",
+      "createdAt": "2019-04-05T16:23:43.936+0000",
+      "status": 0,
+      "message": null,
+      "exceptionMessage": null,
+      "updatedAt": null,
+      "details": {
+        "request": "{\"com\":\" |\",\"cli\":\"BOGOTA|23434324| | | |CdAXI9A1FNz8cK7Jwf1sqAHjEmFsaXLSZmk4xknd|0|DFASDFASDFASD| | |0| |0| | | |\",\"pag\":\"1| |8900.0|\",\"pro\":\"503932|malteada chocolate 12 oz|8900|1|0|0|0|0|0|0|Test Comment |\"}",
+        "response": null
+      }
+    },
+    "request": {
+      "id": 465261265,
+      "userId": 141450437,
+      "products": [
+        {
+          "name": "Malteada 12oz",
+          "id": 2090391037,
+          "totalPrice": 8900,
+          "unitPrice": 8900,
+          "comments": "Test Comment",
+          "units": 1,
+          "toppings": [
+            {
+              "id": 10518841,
+              "price": "0",
+              "description": "Chocolate",
+              "units": 1,
+              "index": 1,
+              "toppingCategoryId": 10026035,
+              "categoryIndex": 0
+            }
+          ]
+        }
+      ],
+      "totalValue": "8900",
+      "totalPrice": "8900",
+      "storeId": "900007519",
+      "createdAt": "2019-04-05 09:43:14"
+    }
+  },
+  {
+    "response": {
+      "rappiId": "8156764",
+      "integrationId": null,
+      "rappiStoreId": "900007519",
+      "createdAt": "2019-04-05T16:23:43.939+0000",
+      "status": 0,
+      "message": null,
+      "exceptionMessage": null,
+      "updatedAt": null,
+      "details": {
+        "request": "{\"com\":\" |\",\"cli\":\"BOGOTA|23434324| | | |CdAXI9A1FNz8cK7Jwf1sqAHjEmFsaXLSZmk4xknd|0|DFASDFASDFASD| | |0| |0| | | |\",\"pag\":\"1| |8900.0|\",\"pro\":\"503933|malteada frutos rojos 12oz|8900|1|0|0|0|0|0|0|Test Comment |\"}",
+        "response": null
+      }
+    },
+    "request": {
+      "id": 8156764,
+      "userId": 141450437,
+      "products": [
+        {
+          "name": "Malteada 12oz",
+          "id": 2090391037,
+          "totalPrice": 8900,
+          "unitPrice": 8900,
+          "comments": "Test Comment",
+          "units": 1,
+          "toppings": [
+            {
+              "id": 10518842,
+              "price": "0",
+              "description": "Frutos rojos",
+              "units": 1,
+              "index": 1,
+              "toppingCategoryId": 10026035,
+              "categoryIndex": 0
+            }
+          ]
+        }
+      ],
+      "totalValue": "8900",
+      "totalPrice": "8900",
+      "storeId": "900007519",
+      "createdAt": "2019-04-05 09:43:14"
+    }
+  },
+  {
+    "response": {
+      "rappiId": "193996504",
+      "integrationId": null,
+      "rappiStoreId": "900007519",
+      "createdAt": "2019-04-05T16:23:43.942+0000",
+      "status": 0,
+      "message": null,
+      "exceptionMessage": null,
+      "updatedAt": null,
+      "details": {
+        "request": "{\"com\":\" |\",\"cli\":\"BOGOTA|23434324| | | |CdAXI9A1FNz8cK7Jwf1sqAHjEmFsaXLSZmk4xknd|0|DFASDFASDFASD| | |0| |0| | | |\",\"pag\":\"1| |18800.0|\",\"pro\":\"503933|malteada frutos rojos 12oz|8900|1|0|0|0|0|0|0|  |\\n725924|malteda + papas|9900|1|0|0|0|0|0|0|Test Comment |\"}",
+        "response": null
+      }
+    },
+    "request": {
+      "id": 193996504,
+      "userId": 141450437,
+      "products": [
+        {
+          "name": "Promo malteada+ papas ",
+          "id": 2090391038,
+          "totalPrice": 9900,
+          "unitPrice": 9900,
+          "comments": "Test Comment",
+          "units": 1,
+          "toppings": [
+            {
+              "id": 10508929,
+              "price": "0",
+              "description": "Malteada Frutos Rojos",
+              "units": 1,
+              "index": 1,
+              "toppingCategoryId": 10024053,
+              "categoryIndex": 0
+            }
+          ]
+        }
+      ],
+      "totalValue": "9900",
+      "totalPrice": "9900",
+      "storeId": "900007519",
+      "createdAt": "2019-04-05 09:43:14"
+    }
+  },
+  {
+    "response": {
+      "rappiId": "208946274",
+      "integrationId": null,
+      "rappiStoreId": "900007519",
+      "createdAt": "2019-04-05T16:23:43.945+0000",
+      "status": 0,
+      "message": null,
+      "exceptionMessage": null,
+      "updatedAt": null,
+      "details": {
+        "request": "{\"com\":\" |\",\"cli\":\"BOGOTA|23434324| | | |CdAXI9A1FNz8cK7Jwf1sqAHjEmFsaXLSZmk4xknd|0|DFASDFASDFASD| | |0| |0| | | |\",\"pag\":\"1| |18800.0|\",\"pro\":\"503932|malteada chocolate 12 oz|8900|1|0|0|0|0|0|0|  |\\n725924|malteda + papas|9900|1|0|0|0|0|0|0|Test Comment |\"}",
+        "response": null
+      }
+    },
+    "request": {
+      "id": 208946274,
+      "userId": 141450437,
+      "products": [
+        {
+          "name": "Promo malteada+ papas ",
+          "id": 2090391038,
+          "totalPrice": 9900,
+          "unitPrice": 9900,
+          "comments": "Test Comment",
+          "units": 1,
+          "toppings": [
+            {
+              "id": 10508928,
+              "price": "0",
+              "description": "Malteada Chocolate ",
+              "units": 1,
+              "index": 1,
+              "toppingCategoryId": 10024053,
+              "categoryIndex": 0
+            }
+          ]
+        }
+      ],
+      "totalValue": "9900",
+      "totalPrice": "9900",
+      "storeId": "900007519",
+      "createdAt": "2019-04-05 09:43:14"
+    }
+  },
+  {
+    "response": {
+      "rappiId": "8942070",
+      "integrationId": null,
+      "rappiStoreId": "900007519",
+      "createdAt": "2019-04-05T16:23:43.949+0000",
+      "status": 0,
+      "message": null,
+      "exceptionMessage": null,
+      "updatedAt": null,
+      "details": {
+        "request": "{\"com\":\" |\",\"cli\":\"BOGOTA|23434324| | | |CdAXI9A1FNz8cK7Jwf1sqAHjEmFsaXLSZmk4xknd|0|DFASDFASDFASD| | |0| |0| | | |\",\"pag\":\"1| |18800.0|\",\"pro\":\"503930|malteada vainilla 12 oz|8900|1|0|0|0|0|0|0|  |\\n725924|malteda + papas|9900|1|0|0|0|0|0|0|Test Comment |\"}",
+        "response": null
+      }
+    },
+    "request": {
+      "id": 8942070,
+      "userId": 141450437,
+      "products": [
+        {
+          "name": "Promo malteada+ papas ",
+          "id": 2090391038,
+          "totalPrice": 9900,
+          "unitPrice": 9900,
+          "comments": "Test Comment",
+          "units": 1,
+          "toppings": [
+            {
+              "id": 10508927,
+              "price": "0",
+              "description": "Malteada Vainilla",
+              "units": 1,
+              "index": 1,
+              "toppingCategoryId": 10024053,
+              "categoryIndex": 0
+            }
+          ]
+        }
+      ],
+      "totalValue": "9900",
+      "totalPrice": "9900",
+      "storeId": "900007519",
+      "createdAt": "2019-04-05 09:43:14"
+    }
+  }
+]
